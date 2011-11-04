@@ -57,6 +57,7 @@ Problems", known as SAGEEP).
 %doc %{_texmfdistdir}/source/latex/sageep/Makefile
 %doc %{_texmfdistdir}/source/latex/sageep/sageep.dtx
 %doc %{_texmfdistdir}/source/latex/sageep/sageep.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,3 +68,5 @@ Problems", known as SAGEEP).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
