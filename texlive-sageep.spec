@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-sageep
 Version:	1.0
-Release:	3
+Release:	4
 Summary:	Format papers for the annual meeting of EEGS
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sageep
