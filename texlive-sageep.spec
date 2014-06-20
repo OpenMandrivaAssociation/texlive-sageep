@@ -1,12 +1,12 @@
 # revision 15878
 # category Package
 # catalog-ctan /macros/latex/contrib/sageep
-# catalog-date 2009-01-23 11:09:06 +0100
+# catalog-date 2014-02-26 23:03:13 +0100
 # catalog-license lppl
 # catalog-version 1.0
 Name:		texlive-sageep
 Version:	1.0
-Release:	7
+Release:	8
 Summary:	Format papers for the annual meeting of EEGS
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sageep
@@ -57,17 +57,3 @@ Problems", known as SAGEEP).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
-+ Revision: 755785
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 719477
-- texlive-sageep
-- texlive-sageep
-- texlive-sageep
-- texlive-sageep
-
