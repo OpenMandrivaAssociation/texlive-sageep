@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Format papers for the annual meeting of EEGS
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sageep
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sageep
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sageep.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sageep.doc.r%{version}.tar.xz
